@@ -1,0 +1,20 @@
+html {
+    text-align: center;
+    font-family: "Lexend Mega", sans-seif;
+}
+li {
+    list-style: none;
+}
+
+header {
+    font-size: 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner {
+    background-image: url('');
+}
