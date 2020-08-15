@@ -1,7 +1,7 @@
 html {
     text-align: center;
     font-family: "Lexend Mega", sans-seif;
-    overflow-x: hidden;
+    width: 100%;
 }
 
 li {
@@ -26,7 +26,6 @@ header {
     background-image: url('resources/pipe-a-WQTwsgq_mxg-unsplash.jpg');
     height: 300px;
     background-size: cover;
-    max-width: 100%;
     display: flex;
     flex-direction: column;
     padding-top: 6rem;
@@ -131,6 +130,25 @@ h6 {
     margin-bottom: 0;
 }
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 1367px) {
+    .menu {
+        justify-content: center;
+        flex-wrap: auto;
+        flex-basis: auto;
+    }
 
+    .banner {
+        width: m;
+        height: 300px;
+    }
+
+    .team {
+        width: 100%;
+        height: 400px;
+    }
+
+    .team-member {
+        flex-wrap: auto;
+    }
 }
+
