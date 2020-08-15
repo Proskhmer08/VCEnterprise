@@ -19,6 +19,7 @@ header {
 .menu {
     display: flex;
     justify-content: space-between;
+    
 }
 
 .banner {
@@ -31,11 +32,14 @@ header {
     padding-top: 6rem;
 }
 
+.banner h2 {
+    margin-bottom: 0;
+    padding-bottom: 0.95rem;
+}
 
 h2 {
     font-size: 1.85rem;
     background-color: white;
-    margin-bottom: 0;
     padding-bottom: 0;
     background-size: cover;
     padding-top: 2rem;
@@ -82,7 +86,7 @@ h5 {
 
 .our-team h2 {
     text-align: center;
-    margin: 0;
+    margin: 0.6rem;
     font-size: 1.85rem;
 }
 
@@ -93,13 +97,13 @@ h5 {
     background-size: cover;
     display: flex;
     flex-wrap: wrap;
-    padding-top: 3rem;
+    padding-top: 3.5rem;
 }
 
 .team img {
     height: auto;
-    width: 200px;
-    justify-content: space-between;
+    width: 190px;
+    justify-content: center;
     margin-left: auto;
     margin-right: auto;
     align-items: center;
@@ -108,17 +112,25 @@ h5 {
 
 .team-member {
     flex-basis: 280px;
-    padding-left: 5rem;
-    flex-shrink:1;
+    flex-wrap: wrap;
+    flex-shrink: 5;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .team p {
     color: white;
     padding-top: 0;
+    margin-top: 0;
+    font-size: 1.135rem;
 }
 
 h6 {
     font-size: 1.35rem;
     margin-top:2rem;
     margin-bottom: 0;
+}
+
+@media only screen and (max-width: 400px){
+
 }
