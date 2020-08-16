@@ -150,3 +150,11 @@ h6 {
     }
 }
 
+@media only screen and (max-width: 812px) {
+    h6 {
+        font-size: 0.7rem;
+        margin-top: 2rem;
+        margin-bottom: 0;
+    }
+}
+
