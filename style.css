@@ -122,13 +122,25 @@ h5 {
     font-size: 1.135rem;
 }
 
-h6 {
-    font-size: 1.35rem;
+.email {
+    
     margin-top:2rem;
     margin-bottom: 0;
 }
 
-@media only screen and (max-width: 1367px) {
+@media only screen and (min-width: 1368px) {
+    .contact h6 {
+        font-size: 1.35rem;
+    }
+}
+
+@media only screen and (min-width: 820px) and (max-width: 1024px) {
+    .contact h6 {
+        font-size: 1.35rem;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1367px) {
     .menu {
         justify-content: center;
         flex-wrap: auto;
@@ -136,7 +148,7 @@ h6 {
     }
 
     .banner {
-        width: m;
+        width: 100%;
         height: 300px;
     }
 
@@ -148,13 +160,27 @@ h6 {
     .team-member {
         flex-wrap: auto;
     }
+
+    .email {
+        font-size: 1.35rem;
+    }
 }
 
-@media only screen and (max-width: 812px) {
-    h6 {
+@media only screen and (min-width: 400px) and (max-width: 812px) {
+    .contact h6 {
         font-size: 0.7rem;
         margin-top: 2rem;
         margin-bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .email {
+        font-size: 0.7rem;
+    }
+
+    .team {
+        
     }
 }
 
