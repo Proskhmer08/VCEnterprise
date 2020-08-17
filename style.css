@@ -11,6 +11,10 @@ li {
     font-size: 1.06rem;
 }
 
+a {
+    color: black;
+}
+
 header {
     font-size: 21px;
 }
