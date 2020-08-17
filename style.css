@@ -60,9 +60,11 @@ h5 {
 
 .gallery {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.galleries img {
+.gallery img {
     height: auto;
     width: 200px;
     margin-left: auto;
@@ -128,7 +130,7 @@ h5 {
     margin-bottom: 0;
 }
 
-@media only screen and (min-width: 1368px) {
+@media only screen and (min-width: 1050px) {
     .contact .email .phone {
         font-size: 1.35rem;
     }
